@@ -112,6 +112,8 @@
   }
   .match-row .opp{font-weight:600;}
   .match-row .meta{font-size:13px;color:var(--ink-soft);}
+  .match-row a.meta{color:var(--accent);font-weight:600;text-decoration:none;}
+  .match-row a.meta:hover{color:var(--accent-dark);text-decoration:underline;}
 
   /* COACH REFS */
   .ref-card{border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;margin-bottom:12px;}
@@ -122,10 +124,9 @@
   .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;}
   .gallery .tile{
     aspect-ratio:1/1;background:var(--bg-soft);border-radius:8px;
-    display:flex;align-items:center;justify-content:center;
-    font-size:12px;color:var(--ink-soft);text-align:center;padding:8px;
-    border:1px dashed var(--ph-border);
+    overflow:hidden;
   }
+  .gallery .tile img{width:100%;height:100%;object-fit:cover;display:block;}
 
   /* PERSONAL STORY */
   .story p{font-size:16px;color:var(--ink-soft);}
@@ -196,7 +197,7 @@
   <dl class="facts">
     <div class="fact"><dt>Current Club</dt><dd>Bulls FC Academy (Macarthur FC)</dd></div>
     <div class="fact"><dt>Height</dt><dd>176cm</dd></div>
-    <div class="fact"><dt>Weight</dt><dd>64kg</dd></div>
+    <div class="fact"><dt>Weight</dt><dd>68kg</dd></div>
     <div class="fact"><dt>Email</dt><dd>eamoncorry1@gmail.com</dd></div>
     <div class="fact"><dt>WhatsApp</dt><dd>+61 422 562 053</dd></div>
     <div class="fact"><dt>Graduation</dt><dd>2027</dd></div>
@@ -219,13 +220,24 @@
   </div>
 </section>
 
+<section id="latest-highlight">
+  <div class="wrap">
+    <div class="eyebrow">Latest Highlight</div>
+    <a class="video-box" href="https://youtu.be/YE1-3EoeuPs" target="_blank" rel="noopener">
+      <img src="https://img.youtube.com/vi/YE1-3EoeuPs/hqdefault.jpg" alt="Eamon Corry goal vs SD Raiders">
+      <div class="play-btn"></div>
+      <div class="video-label">Goal vs SD Raiders — 1 August 2026 — opens on YouTube</div>
+    </a>
+  </div>
+</section>
+
 <section id="quick-stats">
   <div class="wrap">
     <h2>Quick Stats</h2>
     <div class="stat-grid">
       <div class="stat-card"><div class="label">Age</div><div class="value">17</div></div>
       <div class="stat-card"><div class="label">Height</div><div class="value">176cm</div></div>
-      <div class="stat-card"><div class="label">Weight</div><div class="value">64kg</div></div>
+      <div class="stat-card"><div class="label">Weight</div><div class="value">68kg</div></div>
       <div class="stat-card"><div class="label">Preferred Foot</div><div class="value">Right</div></div>
       <div class="stat-card"><div class="label">Positions</div><div class="value">RB / Wing-Back / Winger</div></div>
       <div class="stat-card"><div class="label">Club</div><div class="value">Bulls FC Academy</div></div>
@@ -288,9 +300,11 @@
   <div class="wrap">
     <h2>Full Match Library</h2>
     <div class="match-list">
-      <div class="match-row"><span class="opp">vs Sydney Olympic</span><span class="meta placeholder">link full match</span></div>
-      <div class="match-row"><span class="opp">vs Sydney United</span><span class="meta placeholder">link full match</span></div>
-      <div class="match-row"><span class="opp">vs Manly United</span><span class="meta placeholder">link full match</span></div>
+      <div class="match-row"><span class="opp">vs Sydney Olympic</span><a class="meta" href="https://youtu.be/uFkCXvZ21Gk" target="_blank" rel="noopener">Watch full match →</a></div>
+      <div class="match-row"><span class="opp">vs Marconi Stallions</span><a class="meta" href="https://youtu.be/duORKN9Fn_E" target="_blank" rel="noopener">Watch full match →</a></div>
+      <div class="match-row"><span class="opp">vs Blacktown City</span><a class="meta" href="https://youtu.be/S-TiquobVgg" target="_blank" rel="noopener">Watch full match →</a></div>
+      <div class="match-row"><span class="opp">vs Manly United</span><a class="meta" href="https://youtu.be/Ol5hc2bruc8" target="_blank" rel="noopener">Watch full match →</a></div>
+      <div class="match-row"><span class="opp">vs St George City</span><a class="meta" href="https://youtu.be/QsdIHpcdICs" target="_blank" rel="noopener">Watch full match →</a></div>
     </div>
   </div>
 </section>
@@ -326,16 +340,23 @@
   <div class="wrap">
     <h2>Gallery</h2>
     <div class="gallery">
-      <div class="tile">Match action</div>
-      <div class="tile">Match action</div>
-      <div class="tile">Training</div>
-      <div class="tile">Training</div>
-      <div class="tile">Leadership</div>
-      <div class="tile">Team</div>
-      <div class="tile">Team</div>
-      <div class="tile">Match action</div>
-      <div class="tile">Training</div>
-      <div class="tile">Match action</div>
+      <div class="tile"><img src="9S4A5090.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5091.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5092.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5093.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5094.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5095.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5096.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5101.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5103.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5184.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5189.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5210.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5331.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A5351.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A6226.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A6228.JPG" alt="Eamon Corry match action"></div>
+      <div class="tile"><img src="9S4A6229.JPG" alt="Eamon Corry match action"></div>
     </div>
   </div>
 </section>
@@ -344,7 +365,7 @@
   <div class="wrap">
     <h2>About Me</h2>
     <p>My ambition has always been to become an elite student-athlete by combining outstanding academics with high-level football. I enjoy challenging myself in both environments and thrive on hard work, knowing that consistent effort and continual learning are the foundations of long-term success.</p>
-    <p>Football has been a constant throughout my life, and my development through the Bulls FC Academy from U13 to U18 has shaped me both as a player and as a person. During that time, I've had the opportunity to play across several positions—from central midfield, then winger, and now to right back. Each role has given me a different perspective on the game and helped me develop a deeper tactical understanding.</p>
+    <p>Football has been a constant throughout my life, and my development through the Bulls FC Academy from U13 to U18 has shaped me both as a player and as a person. During that time, I've had the opportunity to play across several positions, moving from central midfield to winger and now to right-back. Each role has given me a different perspective on the game and helped me develop a deeper tactical understanding.</p>
     <p>Today, I see myself as a modern attacking defender who combines the tactical awareness of a former midfielder, the attacking instincts of a winger, and the defensive discipline required of a modern fullback. I enjoy receiving the ball under pressure, helping build attacks from wide areas, and contributing at both ends of the pitch. My background has taught me to be adaptable, comfortable in possession, and to understand the responsibilities of every phase of the game.</p>
     <p>Away from football, I attend a selective academic high school and have achieved a 1470 SAT while pursuing a strong interest in Engineering and related STEM disciplines. I believe the discipline required to balance a demanding academic workload with academy football has helped me become organised, resilient and committed to continual improvement.</p>
     <p>Above all, I value being coachable, dependable and putting the team first. I enjoy learning, welcome constructive feedback and believe that every training session and every match is an opportunity to improve. My goal is to join a university where I can continue to develop as both a footballer and a student, contributing to a successful team while preparing for a meaningful career beyond the game.</p>
@@ -365,7 +386,7 @@
 </section>
 
 <footer class="wrap">
-  Prototype built from the recruitment platform brief · Everything in yellow needs real content before this goes live.
+  © 2026 Eamon Corry.
 </footer>
 
 <button class="btn quick-view-btn" onclick="document.getElementById('coachModal').classList.add('open')">Coach Quick View</button>
@@ -381,7 +402,7 @@
       <div><div class="k">Nationality / Passports</div><div class="v">Irish, Australian &amp; Canadian</div></div>
       <div><div class="k">Position</div><div class="v">RB / Wing-Back / Winger</div></div>
       <div><div class="k">Height</div><div class="v">176cm</div></div>
-      <div><div class="k">Weight</div><div class="v">64kg</div></div>
+      <div><div class="k">Weight</div><div class="v">68kg</div></div>
       <div><div class="k">Current Club</div><div class="v">Bulls FC Academy (Macarthur FC)</div></div>
       <div><div class="k">Graduation</div><div class="v">2027</div></div>
       <div><div class="k">SAT Score</div><div class="v">1470</div></div>
